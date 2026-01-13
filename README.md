@@ -181,9 +181,9 @@ After deployment completes, Terraform will output:
 ```
 Outputs:
 
-alb_url = "http://aws-devops-alb-xxxxx.us-east-1.elb.amazonaws.com/"
-codepipeline_url = "https://console.aws.amazon.com/codesuite/codepipeline/..."
-ecr_repository_url = "xxxxx.dkr.ecr.us-east-1.amazonaws.com/aws-devops-app"
+alb_url = "http://aws-devops-alb-1270605205.us-east-1.elb.amazonaws.com/"
+codepipeline_url = "https://415711733694-wceum3qw.us-east-1.console.aws.amazon.com/codesuite/codepipeline/pipelines/aws-devops-pipeline/view?region=us-east-1"
+ecr_repository_url = "415711733694.dkr.ecr.us-east-1.amazonaws.com/aws-devops-app:latest"
 ```
 
 Visit the `alb_url` to see your application! 🎉
